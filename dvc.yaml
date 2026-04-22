@@ -1,8 +1,0 @@
-stages:
-  train:
-    cmd: python train.py
-    deps:
-    - Telecom Customer Churn.csv
-    - train.py
-    outs:
-    - model.pkl
